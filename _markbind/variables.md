@@ -1,13 +1,13 @@
 <!-- ===========================  primary module configuration ============================================= -->
 
-<variable name="module">CS2103</variable>
-<variable name="module_pair">{{ module }}/T</variable>
-<variable name="module_name">Software Engineering</variable>
-<variable name="module_color">success</variable>
+<variable name="module">TIC4002</variable>
+<variable name="module_pair">{{ module }}</variable>
+<variable name="module_name">Software Engineering Practicum II</variable>
+<variable name="module_color">info</variable>
 
-<variable name="S">1</variable>
-<variable name="semester">AY2021S{{ S }}</variable>
-<variable name="period">2020 Aug-Dec</variable>
+<variable name="S">2</variable>
+<variable name="semester">AY2223S{{ S }}</variable>
+<variable name="period">2023 Jan-Apr</variable>
 <variable name="current_week">0</variable>
 <variable name="archived"></variable>  <!-- keep empty during semester time -->
 
@@ -74,6 +74,7 @@
 <variable name="cs2113">{{ "Y" if module == "CS2113" }}</variable>
 <variable name="tic2002">{{ "Y" if module == "TIC2002" }}</variable>
 <variable name="tic4001">{{ "Y" if module == "TIC4001" }}</variable>
+<variable name="tic4002">{{ "Y" if module == "TIC4002" }}</variable>
 <variable name="te3201">{{ "Y" if module == "TE3201" }}</variable>
 <variable name="has_t">{{ "Y" if cs2103 or cs2113 }}</variable>
 <variable name="has_pe">{{ "Y" if cs2103 or cs2113 }}</variable>
